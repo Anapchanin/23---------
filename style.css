@@ -1,1 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+
+    background: linear-gradient(180deg,#bcffff 50%, white 50% 100%);
+}
+
+#header-count {
+    display: flex;
+    justify-content: center;
+}
+
+#count{
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgb(3, 102, 138);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 0px black;
+}
+
+#main-corn{
+    background-color: rgb(211, 241, 38);
+    border-radius: 50%;
+    padding: 70px;
+}
+
+#corn-img{
+    width: 300px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(109, 228, 255);
+    border-top: 3px solid rgb(78, 255, 8);
+}
+
+footer>h1 {
+    padding: 22px;
+}
+
+
+button{
+    font-size: 18px;
+    color: white;
+    background-color: #bcffff;
+    padding: 10px;
+    margin: 20px 8px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: 0px 0px 2px 0px black;
+    text-shadow: 1px 1px 1px black;
+}
